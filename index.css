@@ -1,0 +1,46 @@
+header{
+    background-color: blue;
+    padding: 15px;
+    overflow: auto;
+}
+
+header img{
+    float: left;
+    width: 10%;
+    vertical-align: middle;
+}
+
+.titulo{
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    width: 80%;
+}
+
+header form{
+    float: right;
+    width: 10%;
+}
+
+header form input{
+    width: 90%;
+}
+
+header form label{
+    color: white;
+}
+
+.body-container{
+    width: 50%;
+}
+
+.left-container{
+    float: left;
+    background-color: red;
+}
+
+.right-container{
+    float: right;
+    background-color: green;
+}
