@@ -38,33 +38,35 @@ header form label{
 
 .body-container{
     width: 50%;
+    height: 450px;
 }
 
-.left-container img{
+.left-container {
+    background-image: url(imagenes/centrodeportivo.jpg);
+    background-position-x: center;
     float: left;
-    width: 100%;
     position: relative;
 }
 
 .left-container p{
     position: absolute;
-    bottom: 5%;
-    left: 8%;
+    top: 0%;
+    left: 13%;
     color: white;
     font-style: italic;
-    font-size: 4vh;
+    font-size: 20pt;
 }
 
 .right-container{
     float: right;
     background-color: #166aaf;
     color: white;
-    font-size: 20px;
+    font-size: 17pt;
     text-align: center;
 }
 
 .right-container p{
-    margin: 30px;
+    margin: 4%;
 }
 
 footer{
