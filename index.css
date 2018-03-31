@@ -2,6 +2,14 @@ html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
 header{
     background-color: #0e3969;
     padding: 15px;
@@ -15,12 +23,22 @@ header img{
     vertical-align: middle;
 }
 
-.titulo{
+.title{
     float: left;
     text-align: center;
     font-size: 20px;
     color: white;
     width: 80%;
+}
+
+.sign-out{
+    float: right;
+    width: 10%;
+    color: white;
+    text-align: center;
+}
+
+.sign-out a{
 }
 
 header form{
@@ -80,12 +98,10 @@ footer{
     border-top: 6px solid #5aa5e2;
 }
 
-a:link{
-    color: white;
+footer a:link{
     text-decoration: none;
 }
 
-a:visited{
-    color:white;
+footer a:visited{
     text-decoration: none;
 }
