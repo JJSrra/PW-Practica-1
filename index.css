@@ -78,21 +78,15 @@ header form label{
     color: white;
     font-size: 17pt;
     text-align: center;
-}
-
-.right-container ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background-color: #166aaf;
+    display: flex;
+    flex-direction: column;
 }
 
 .right-container a{
     display: block;
-    padding: 2.2%;
     color: white;
     text-decoration: none;
+    flex-grow: 1;
 }
 
 .right-container a:hover{
