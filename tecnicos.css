@@ -38,23 +38,27 @@ header img{
     text-align: center;
 }
 
-footer{
-    clear: both;
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #166aaf;
+}
+
+nav li{
+    float: left;
+}
+
+nav a{
+    display: block;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
     background-color: #0e3969;
-    color: white;
-    font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-top: 6px solid #5aa5e2;
-}
-
-footer a:link{
-    text-decoration: none;
-}
-
-footer a:visited{
-    text-decoration: none;
 }
 
 body section{
@@ -76,4 +80,19 @@ body section img{
 body section p{
     color: white;
     font-size: 17pt;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    background-color: #0e3969;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 6px solid #5aa5e2;
+}
+
+footer a{
+    text-decoration: none;
 }
