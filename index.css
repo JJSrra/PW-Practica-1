@@ -2,6 +2,13 @@ html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 a:link{
     color: white;
 }
@@ -87,6 +94,7 @@ header form label{
     color: white;
     text-decoration: none;
     flex-grow: 1;
+    padding-top: 2%;
 }
 
 .right-container a:hover{
