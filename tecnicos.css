@@ -58,7 +58,7 @@ nav a{
     color: white;
     text-decoration: none;
     flex-grow: 1;
-    padding: 12px;
+    padding: 1%;
 }
 
 nav a:hover{
