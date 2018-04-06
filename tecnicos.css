@@ -45,7 +45,7 @@ header img{
     text-align: center;
 }
 
-.sections{
+nav{
     background-color: #166aaf;
     color: white;
     text-align: center;
@@ -53,7 +53,7 @@ header img{
     flex-direction: row;
 }
 
-.sections a{
+nav a{
     display: block;
     color: white;
     text-decoration: none;
@@ -61,11 +61,11 @@ header img{
     padding: 12px;
 }
 
-.sections a:hover{
+nav a:hover{
     background-color: #0e3969;
 }
 
-.sections a:active{
+nav a:active{
     opacity: 0.7;
 }
 
