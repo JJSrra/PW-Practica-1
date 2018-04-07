@@ -77,6 +77,15 @@ form{
     flex-direction: column;
 }
 
+form label{
+    font-size: 18pt;
+    color: #0e3969;
+}
+
+form input{
+    font-size: 18pt;
+}
+
 footer{
     clear: both;
     text-align: center;

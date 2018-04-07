@@ -33,11 +33,15 @@
     </nav>
 
     <form method="POST" action="index2.html">
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre"/>
-        <label for="primerApellido">Primer apellido</label>
-        <input type="text" id="primerApellido"/>
-        
+        <label for="nombre">Nombre *</label>
+        <input type="text" id="nombre" required/>
+        <label for="primerApellido">Primer apellido *</label>
+        <input type="text" id="primerApellido" required/>
+        <label for="segundoApellido">Segundo apellido *</label>
+        <input type="text" id="segundoApellido" required/>
+        <label for="correoElectronico">Correo electrónico *</label>
+        <input type="text" id="correoElectronico" required/>
+        <br/>
         <input type="submit" id="enviarFormulario" value="Enviar formulario"/>
     </form>
 </body>
