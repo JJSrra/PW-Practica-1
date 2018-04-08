@@ -86,6 +86,7 @@ form input[type="date"]{
 
 form legend{
     font-size: 24pt;
+    font-weight: bold;
     color: #0e3969;
     text-align: center;
 }
@@ -110,8 +111,25 @@ form select{
     margin-bottom: 1%;
 }
 
-form input[type="checkbox"]{
-    
+form section{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+}
+
+.categoria{
+    font-size: 14pt;
+    margin-right: 2%;
+}
+
+form textarea{
+    resize: none;
+    font-size: 14pt;
+    background-color: white;
+    border: 1px solid #166aaf;
+    border-radius: 5px;
+    margin-bottom: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
 }
 
 form input[type="submit"]{

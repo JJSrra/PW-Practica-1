@@ -40,6 +40,10 @@
         <input type="text" id="primerApellido" required/>
         <label for="segundoApellido">Segundo apellido</label>
         <input type="text" id="segundoApellido"/>
+        <label for="nickname">Nombre de usuario *</label>
+        <input type="text" maxlength="15" id="nickname" required/>
+        <label for="passphrase">Contraseña *</label>
+        <input type="password" id="passphrase" required/>
         <label for="correoElectronico">Correo electrónico *</label>
         <input type="text" id="correoElectronico" required/>
         <label for="fechaNacimiento">Fecha de nacimiento *</label>
@@ -57,8 +61,33 @@
             <option value="otra">Otra</option>
         </select>
         <label>¿A qué actividades estás interesad@ en apuntarte?</label>
-        <label class="actividades" for="checkFutbol">Fútbol</label>
-        <input type="checkbox" id="checkFutbol" value="apuntarseFutbol"/>
+        <section>
+            <input type="checkbox" id="checkFutbol" value="apuntarseFutbol" />
+            <label class="categoria" for="checkFutbol">Fútbol</label>
+            <input type="checkbox" id="checkBaloncesto" value="apuntarseBaloncesto" />
+            <label class="categoria" for="checkBaloncesto">Baloncesto</label>
+            <input type="checkbox" id="checkRugby" value="apuntarseRugby" />
+            <label class="categoria" for="checkRugby">Rugby</label>
+            <input type="checkbox" id="checkZumba" value="apuntarseZumba" />
+            <label class="categoria" for="checkZumba">Zumba</label>
+            <input type="checkbox" id="checkCrossFit" value="apuntarseCrossFit" />
+            <label class="categoria" for="checkCrossFit">CrossFit</label>
+            <input type="checkbox" id="checkYoga" value="apuntarseYoga" />
+            <label class="categoria" for="checkYoga">Yoga</label>
+            <input type="checkbox" id="checkSpinning" value="apuntarseSpinning" />
+            <label class="categoria" for="checkSpinning">Spinning</label>
+            <input type="checkbox" id="checkKickboxing" value="apuntarseKickboxing" />
+            <label class="categoria" for="checkKickboxing">Kickboxing</label>
+        </section>
+        <label>¿Alguna vez has sido miembro de un centro deportivo? *</label>
+        <section>
+            <input type="radio" id="radioSi" name="miembro" required/>
+            <label class="categoria" for="radioSi">Sí</label>
+            <input type="radio" id="radioNo" name="miembro" required/>
+            <label class="categoria" for="radioNo">No</label>
+        </section>
+        <label for="conocimiento">¿Cómo nos conociste? *</label>
+        <textarea id="conocimiento" rows="5" placeholder="A través de un amigo, por internet, un anuncio..."></textarea>
         <br/>
         <input type="submit" class="form-button" id="enviarFormulario" value="Enviar formulario"/>
     </form>
