@@ -33,16 +33,31 @@
     </nav>
 
     <form method="POST" action="index2.html">
+        <legend>¡Únete a nuestro centro!</legend>
         <label for="nombre">Nombre *</label>
         <input type="text" id="nombre" required/>
         <label for="primerApellido">Primer apellido *</label>
         <input type="text" id="primerApellido" required/>
-        <label for="segundoApellido">Segundo apellido *</label>
-        <input type="text" id="segundoApellido" required/>
+        <label for="segundoApellido">Segundo apellido</label>
+        <input type="text" id="segundoApellido"/>
         <label for="correoElectronico">Correo electrónico *</label>
         <input type="text" id="correoElectronico" required/>
+        <label for="fechaNacimiento">Fecha de nacimiento *</label>
+        <input class="input-fecha" type="date" id="fechaNacimiento" required/>
+        <label for="actividadPreferida">Actividad deportiva preferida</label>
+        <select id="actividadesCentro">
+            <option value="futbol">Fútbol</option>
+            <option value="baloncesto">Baloncesto</option>
+            <option value="rugby">Rugby</option>
+            <option value="zumba">Zumba</option>
+            <option value="crossfit">CrossFit</option>
+            <option value="yoga">Yoga</option>
+            <option value="spinning">Spinning</option>
+            <option value="kickboxing">Kickboxing</option>
+            <option value="otra">Otra</option>
+        </select>
         <br/>
-        <input type="submit" id="enviarFormulario" value="Enviar formulario"/>
+        <input type="submit" class="form-button" id="enviarFormulario" value="Enviar formulario"/>
     </form>
 </body>
 

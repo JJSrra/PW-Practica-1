@@ -70,11 +70,24 @@ nav a:active{
 }
 
 form{
+    margin-top: 1%;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 2%;
     width: 70%;
     display: flex;
     flex-direction: column;
+}
+
+.input-fecha{
+    font-size: 15pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+form legend{
+    font-size: 24pt;
+    color: #0e3969;
+    text-align: center;
 }
 
 form label{
@@ -84,6 +97,23 @@ form label{
 
 form input{
     font-size: 18pt;
+    border: 1px solid #166aaf;
+    border-radius: 5px;
+    margin-bottom: 1%;
+}
+
+form select{
+    font-size: 18pt;
+}
+
+.form-button{
+    border: 2px solid;
+    background-color: #0e3969;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 0%;
+    padding: 1%;
 }
 
 footer{
