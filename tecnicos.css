@@ -80,6 +80,7 @@ body section{
 
 body section img{
     width: 90%;
+    border-radius: 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
