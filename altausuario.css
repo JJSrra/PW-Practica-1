@@ -120,6 +120,7 @@ form section{
 .categoria{
     font-size: 14pt;
     margin-right: 2%;
+    color: black;
 }
 
 form textarea{
