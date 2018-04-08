@@ -79,7 +79,7 @@ form{
     flex-direction: column;
 }
 
-.input-fecha{
+form input[type="date"]{
     font-size: 15pt;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
 }
@@ -104,16 +104,32 @@ form input{
 
 form select{
     font-size: 18pt;
+    background-color: white;
+    border: 1px solid #166aaf;
+    border-radius: 5px;
+    margin-bottom: 1%;
 }
 
-.form-button{
+form input[type="checkbox"]{
+    
+}
+
+form input[type="submit"]{
     border: 2px solid;
-    background-color: #0e3969;
+    background-color: #166aaf;
     border-radius: 5px;
     color: white;
     cursor: pointer;
     margin-bottom: 0%;
     padding: 1%;
+}
+
+form input[type="submit"]:hover{
+    background-color: #0e3969;
+}
+
+form input[type="submit"]:active{
+    opacity: 0.9;
 }
 
 footer{
