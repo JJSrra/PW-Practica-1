@@ -82,6 +82,7 @@ table{
     padding: 0.25%;
     background-color: #5aa5e2;
     color: white;
+    border-radius: 10px;
 }
 
 table caption{
@@ -101,6 +102,7 @@ table th{
     border-color: #0e3969;
     background-color: #0e3969;
     padding: 1%;
+    border-radius: 4px;
 }
 
 table td{
@@ -109,6 +111,7 @@ table td{
     border-style: solid;
     border-color: #0e3969;
     padding: 1%;
+    border-radius: 4px;
 }
 
 .ocupado{
