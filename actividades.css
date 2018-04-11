@@ -100,6 +100,19 @@ nav a:active{
     width: 37%;
     margin-left: 1%;
     background-color: #0e3969;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.noticia{
+    width: 96%;
+    margin: 2%;
+    background-color: #5aa5e2;
+    border-radius: 15px;
+    display: block;
+    flex-grow: 1;
 }
 
 footer{
