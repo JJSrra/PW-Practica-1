@@ -96,6 +96,38 @@ nav a:active{
     border-radius: 15px;
 }
 
+.actividad .left-container{
+    float: left;
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    margin-right: 2.5%;
+}
+
+.actividad .left-container img{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #5aa5e2;
+}
+
+.actividad .right-container{
+    float: left;
+    width: 60%;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    color: white;
+}
+
+.titulo-actividad{
+    text-align: center;
+}
+
+.descripcion-actividad{
+    font-weight: normal;
+    text-align: justify;
+}
+
+
 .container-noticias{
     width: 37%;
     margin-left: 1%;
