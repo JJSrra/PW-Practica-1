@@ -115,7 +115,7 @@ nav a:active{
     flex-grow: 1;
 }
 
-.left-container{
+.noticia .left-container{
     float: left;
     width: 45%;
     padding-left: 2%;
@@ -123,13 +123,13 @@ nav a:active{
     padding-right: 1%;
 }
 
-.left-container img{
+.noticia .left-container img{
     width: 100%;
     border-radius: 10px;
     border: 2px solid #0e3969;
 }
 
-.right-container{
+.noticia .right-container{
     float: left;
     width: 46%;
     padding-right: 3%;
