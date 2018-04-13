@@ -85,22 +85,39 @@ nav a:active{
 .menu-actividades{
     width: 34%;
     margin-left: 1%;
-    background-color: #0e3969;
     border-radius: 15px;
-    overflow-y: auto;
-}
-
-::-webkit-scrollbar{
-    width: 0;
-    background: transparent;
+    background-color: #166aaf;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .actividad{
-    width: 96%;
-    height: 150px;
-    margin: 2%;
-    background-color: #166aaf;
-    border-radius: 15px;
+    display: block;
+    flex-grow: 1;
+    color: white;
+    text-decoration: none;
+    font-size: 18pt;
+    padding-top: 5%;
+}
+
+
+.actividad:hover{
+    background-color: #0e3969;
+}
+
+.primera-actividad:hover{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.ultima-actividad:hover{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.actividad:active{
+    opacity: 0.7;
 }
 
 footer{
