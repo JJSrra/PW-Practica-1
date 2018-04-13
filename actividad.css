@@ -72,7 +72,7 @@ nav a:active{
 .body-container{
     float: left;
     margin: 2%;
-    height: 600px;
+    height: 640px;
 }
 
 .container-actividad{
@@ -80,6 +80,29 @@ nav a:active{
     margin-right: 1%;
     background-color: #166aaf;
     border-radius: 15px;
+    color: white;
+}
+
+.nombre-actividad{
+    font-size: 30pt;
+    text-align: center;
+}
+
+.container-actividad img{
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 15px;
+}
+
+.descripcion-actividad{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.detalles-actividad{
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .menu-actividades{
