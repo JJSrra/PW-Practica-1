@@ -72,7 +72,7 @@ nav a:active{
 .body-container{
     float: left;
     margin: 2%;
-    height: 600px;
+    height: 590px;
 }
 
 .container-actividades{
@@ -105,7 +105,7 @@ nav a:active{
 }
 
 .actividad .left-container img{
-    width: 100%;
+    width: 185px;
     border-radius: 10px;
     border: 2px solid #5aa5e2;
 }
@@ -144,7 +144,6 @@ nav a:active{
     background-color: #166aaf;
     border-radius: 15px;
     border: 2px solid #0e3969;
-    flex-grow: 1;
 }
 
 .noticia .left-container{
