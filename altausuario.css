@@ -79,6 +79,10 @@ form{
     flex-direction: column;
 }
 
+form input{
+    padding: 0.5%;
+}
+
 form input[type="date"]{
     font-size: 15pt;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
