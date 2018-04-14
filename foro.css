@@ -129,8 +129,49 @@ nav a:active{
     white-space: pre-wrap;
 }
 
-.ultima-respuesta{
-    margin-bottom: 1%;
+.responder-hilo{
+    background-color: #0e3969;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 2%;
+}
+
+.responder-hilo label{
+    font-size: 15pt;
+}
+
+.responder-hilo textarea{
+    margin-top: 1%;
+    resize: none;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
+
+.responder-hilo .boton-enviar{
+    width: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    margin-top: 1%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: none;
+    background-color: #166aaf;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1%;
+}
+
+.responder-hilo .boton-enviar:hover{
+    background-color: #5aa5e2;
+}
+
+.responder-hilo .boton-enviar:active{
+    opacity: 0.9;
 }
 
 footer{
