@@ -126,6 +126,7 @@ nav a:active{
     padding-right: 4%;
     font-size: 12pt;
     text-align: justify;
+    white-space: pre-wrap;
 }
 
 .ultima-respuesta{
