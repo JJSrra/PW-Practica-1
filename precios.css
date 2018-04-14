@@ -1,0 +1,132 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+header{
+    background-color: #0e3969;
+    padding: 15px;
+    overflow: auto;
+    border-bottom: 6px solid #5aa5e2;
+}
+
+header img{
+    float: left;
+    width: 10%;
+    vertical-align: middle;
+}
+
+.title{
+    float: left;
+    text-align: center;
+    font-size: 40pt;
+    color: white;
+    width: 80%;
+}
+
+.sign-out{
+    float: right;
+    width: 10%;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    background-color: #166aaf;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    flex-grow: 1;
+    padding: 12px;
+}
+
+nav a:hover{
+    background-color: #0e3969;
+}
+
+nav a:active{
+    opacity: 0.7;
+}
+
+table{
+    float: left;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0e3969;
+    padding: 0.25%;
+    background-color: #5aa5e2;
+    color: white;
+    border-radius: 10px;
+}
+
+table caption{
+    font-size: 18pt;
+    font-weight: bold;
+    color: #0e3969;
+    margin-bottom: 1%;
+}
+
+.sin-bordes{
+    border-width: 0;
+    background-color: inherit;
+}
+
+table th{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0e3969;
+    background-color: #0e3969;
+    padding: 1%;
+    border-radius: 4px;
+}
+
+table td{
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0e3969;
+    background-color: #166aaf;
+    padding: 1%;
+    border-radius: 4px;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    background-color: #0e3969;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 6px solid #5aa5e2;
+}
+
+footer a{
+    text-decoration: none;
+}
