@@ -88,7 +88,8 @@ table{
 table caption{
     font-size: 18pt;
     font-weight: bold;
-    color: #0e3969
+    color: #0e3969;
+    margin-bottom: 1%;
 }
 
 .sin-bordes{
