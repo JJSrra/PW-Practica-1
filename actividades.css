@@ -45,7 +45,7 @@ header img{
     text-align: center;
 }
 
-nav{
+.topnav{
     background-color: #166aaf;
     color: white;
     text-align: center;
@@ -53,7 +53,7 @@ nav{
     flex-direction: row;
 }
 
-nav a{
+.topnav a{
     display: block;
     color: white;
     text-decoration: none;
@@ -61,11 +61,15 @@ nav a{
     padding: 12px;
 }
 
-nav a:hover{
+.topnav .menu-icon{
+    display: none;
+}
+
+.topnav a:hover{
     background-color: #0e3969;
 }
 
-nav a:active{
+.topnav a:active{
     opacity: 0.7;
 }
 
@@ -220,8 +224,22 @@ footer a{
         display:none;
     }
 
-    nav{
-        display: none;
+    .topnav a {display: none;}
+    .topnav a.menu-icon {
+        display: block;
+    }
+
+    .topnav.responsive{
+        position: relative;
+        flex-direction: column;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        display: block;
     }
 
     .body-container{

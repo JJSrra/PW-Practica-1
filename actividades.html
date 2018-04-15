@@ -20,7 +20,8 @@
 </header>
 
 <body>
-    <nav>
+    <nav class="topnav" id="topnav">
+        <a href="javascript:void(0);" class="menu-icon" onclick="deployNav()">&#9776;</a>
         <a href="index2.html">Página principal</a>
         <a href="horario.html">Horario</a>
         <a href="tecnicos.html">Técnicos</a>
@@ -29,6 +30,16 @@
         <a href="precios.html">Precios y promociones</a>
         <a href="altausuario.html">Alta de usuarios</a>
         <a href="foro.html">Foro</a>
+        <script>
+            function deployNav() {
+                var x = document.getElementById("topnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
     </nav>
     <section class="body-container container-actividades">
         <section class="actividad">
