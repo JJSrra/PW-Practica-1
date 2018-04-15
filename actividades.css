@@ -10,11 +10,11 @@ body{
 }
 
 a:link{
-    color: white;
+    color: black;
 }
 
 a:visited{
-    color: white;
+    color: black;
 }
 
 header{
@@ -47,7 +47,7 @@ header img{
 
 nav{
     background-color: #166aaf;
-    color: white;
+    color: black;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -55,7 +55,7 @@ nav{
 
 nav a{
     display: block;
-    color: white;
+    color: black;
     text-decoration: none;
     flex-grow: 1;
     padding: 12px;
@@ -115,7 +115,7 @@ nav a:active{
     width: 60%;
     margin-left: 2.5%;
     margin-right: 5%;
-    color: white;
+    color: black;
 }
 
 .titulo-actividad{
@@ -165,7 +165,7 @@ nav a:active{
     width: 46%;
     padding-right: 3%;
     padding-left: 3%;
-    color: white;
+    color: black;
 }
 
 .titulo-noticia{
@@ -194,4 +194,63 @@ footer{
 
 footer a{
     text-decoration: none;
+}
+
+@media (max-width: 480px) {
+
+    header{
+        padding: 1%;
+    }
+
+    header img{
+        width: 15%;
+    }
+
+    header .title{
+        font-size: 15pt;
+        width: 80%;
+    }
+
+    .sign-out{
+        float: left;
+        width: 80%;
+    }
+
+    .sign-out p{
+        display:none;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .body-container{
+        float: left;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        height: auto;
+    }
+
+    .container-actividades{
+        background-color: #166aaf;
+    }
+
+    .actividad {
+        height: auto;
+    }
+
+    .actividad .left-container{
+        width: 96%;
+        margin: 2%;
+    }
+
+    .actividad .left-container img{
+        width: 96%;
+        
+    }
+
+
 }
