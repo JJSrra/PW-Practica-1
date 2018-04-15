@@ -10,11 +10,11 @@ body{
 }
 
 a:link{
-    color: black;
+    color: white;
 }
 
 a:visited{
-    color: black;
+    color: white;
 }
 
 header{
@@ -47,7 +47,7 @@ header img{
 
 nav{
     background-color: #166aaf;
-    color: black;
+    color: white;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -55,7 +55,7 @@ nav{
 
 nav a{
     display: block;
-    color: black;
+    color: white;
     text-decoration: none;
     flex-grow: 1;
     padding: 12px;
@@ -115,7 +115,7 @@ nav a:active{
     width: 60%;
     margin-left: 2.5%;
     margin-right: 5%;
-    color: black;
+    color: white;
 }
 
 .titulo-actividad{
@@ -165,7 +165,7 @@ nav a:active{
     width: 46%;
     padding-right: 3%;
     padding-left: 3%;
-    color: black;
+    color: white;
 }
 
 .titulo-noticia{
