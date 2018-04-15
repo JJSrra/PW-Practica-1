@@ -243,13 +243,35 @@ footer a{
     }
 
     .actividad .left-container{
-        width: 96%;
+        width: 100%;
         margin: 2%;
     }
 
     .actividad .left-container img{
-        width: 96%;
+        width: 95%;
         
+    }
+
+    .actividad .right-container{
+        width: 95%;
+    }
+
+    .container-noticias{
+        height: auto;
+    }
+
+    .noticia .left-container{
+        width: 90%;
+    }
+
+    .noticia .left-container img{
+        width: 100%;
+        margin: 2%;
+    }
+
+    .noticia .right-container{
+        width: 90%;
+        margin: 2%;
     }
 
 
