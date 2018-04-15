@@ -109,6 +109,11 @@ nav a:active{
     padding-left: 15%;
 }
 
+.detalles-contacto a{
+    color: #0e3969;
+    text-decoration: none;
+}
+
 .detalles-contacto .titulo-contacto{
     font-size: 18pt;
     font-weight: bold;
